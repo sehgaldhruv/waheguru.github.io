@@ -233,3 +233,224 @@ footer{
   color: #77bc28;
 }
 
+
+/* CSS code before media queries */
+
+/* Media query for screens smaller than 768px */
+@media (max-width: 767px) {
+  /* CSS code specific to screens smaller than 768px */
+  .heading {
+    font-size: 3rem;
+  }
+  nav {
+    padding: 0rem 2rem;
+  }
+  .nav-links > a {
+    margin-left: 1.5rem;
+  }
+  .section {
+    padding: 8rem 2rem 12rem;
+    font-size: 2rem;
+  }
+  .main-button {
+    margin-top: 4rem;
+    margin-inline: 1rem;
+  }
+  .marquee .text {
+    padding-left: 2rem;
+    font-size: 1.8rem;
+  }
+  footer {
+    padding: 2rem;
+  }
+  .map {
+    margin-top: 2rem;
+  }
+  .phone,
+  .address {
+    width: 100%;
+    margin: 0.5rem 0rem 1.5rem;
+    font-size: 1rem;
+  }
+  .address {
+    margin-bottom: 0.5rem;
+  }
+  .cars,
+  .inverter {
+    padding: 2rem;
+  }
+  .cars > h1 {
+    padding: 3rem 0 5rem;
+  }
+  .card {
+    margin: 1rem 1rem;
+  }
+  .inverter > h1 {
+    padding: 3rem 0 5rem;
+  }
+  .batteryName {
+    font-size: 2rem;
+    margin: 3rem 0 2rem 3rem;
+  }
+  .batteryPrice {
+    margin: 4rem 0 2rem 3rem;
+    font-size: 1.8rem;
+  }
+  .otherCompatibleCars {
+    margin: 1.5rem 0;
+  }
+  .otherCompatibleCars > ul {
+    line-height: 1.5;
+  }
+  .batteryCard {
+    margin: 3rem 1rem 1rem;
+  }
+  .batteryListImage {
+    width: 15rem;
+  }
+  .batteryListPrice {
+    margin-top: 0.3rem;
+  }
+}
+
+/* Media query for screens between 768px and 1023px */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* CSS code specific to screens between 768px and 1023px */
+  .nav-links > a {
+    margin-left: 2rem;
+  }
+  .section {
+    padding: 8rem 4rem 12rem;
+    font-size: 2.5rem;
+  }
+  .main-button {
+    margin-top: 5rem;
+    margin-inline: 3rem;
+  }
+  .marquee .text {
+    padding-left: 3rem;
+    font-size: 2rem;
+  }
+  footer {
+    padding: 2rem 4rem;
+  }
+  .map {
+    margin-top: 2.5rem;
+  }
+  .phone,
+  .address {
+    width: 12rem;
+    margin: 0.8rem 0rem 1.8rem;
+    font-size: 1.1rem;
+  }
+  .address {
+    margin-bottom: 1.2rem;
+  }
+  .cars,
+  .inverter {
+    padding: 2.5rem 4rem;
+  }
+  .cars > h1 {
+    padding: 4rem 0 6rem;
+  }
+  .card {
+    margin: 1.5rem 2rem;
+  }
+  .inverter > h1 {
+    padding: 4rem 0 6rem;
+  }
+  .batteryName {
+    font-size: 2.5rem;
+    margin: 4rem 0 3rem 4rem;
+  }
+  .batteryPrice {
+    margin: 5rem 0 2rem 4rem;
+    font-size: 2.2rem;
+  }
+  .otherCompatibleCars {
+    margin: 2.5rem 0;
+  }
+  .otherCompatibleCars > ul {
+    line-height: 1.7;
+  }
+  .batteryCard {
+    margin: 4rem 2rem 1rem;
+  }
+  .batteryListImage {
+    width: 17rem;
+  }
+  .batteryListPrice {
+    margin-top: 0.4rem;
+  }
+}
+
+/* Media query for screens larger than 1023px */
+@media (min-width: 1024px) {
+  /* CSS code specific to screens larger than 1023px */
+  .nav-links > a {
+    margin-left: 3rem;
+  }
+  .section {
+    padding: 10rem 10rem 15rem;
+    font-size: 3rem;
+  }
+  .main-button {
+    margin-top: 6rem;
+    margin-inline: 2rem;
+  }
+  .marquee .text {
+    padding-left: 4.4rem;
+    font-size: 2.4rem;
+  }
+  footer {
+    padding: 2rem 5rem;
+  }
+  .map {
+    margin-top: 3rem;
+  }
+  .phone,
+  .address {
+    width: 14rem;
+    margin: 1rem 0rem 2rem;
+    font-size: 1.2rem;
+  }
+  .address {
+    margin-bottom: 1rem;
+  }
+  .cars,
+  .inverter {
+    padding: 3rem 5rem;
+  }
+  .cars > h1 {
+    padding: 4rem 0 7rem;
+  }
+  .card {
+    margin: 2rem 3rem;
+  }
+  .inverter > h1 {
+    padding: 4rem 0 7rem;
+  }
+  .batteryName {
+    font-size: 2.8rem;
+    margin: 6rem 0 4rem 6rem;
+  }
+  .batteryPrice {
+    margin: 7rem 0 3rem 6rem;
+    font-size: 2.5rem;
+  }
+  .otherCompatibleCars {
+    margin: 3rem 0;
+  }
+  .batteryCard {
+    margin: 6rem 2rem 2rem;
+  }
+  .batteryListImage {
+    margin-bottom: 0.5rem;
+    width: 20rem;
+  }
+  .batteryListPrice {
+    margin-top: 0.5rem;
+  }
+}
+
+/* CSS code after media queries */
